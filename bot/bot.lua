@@ -200,7 +200,7 @@ end
 -- If file doesn't exist, create it.
 function load_config( )
   local f = io.open('./data/config.lua', "r")
-  -- If config.lua doesn't exist
+  -- If config.lua doesn't exist8
   if not f then
     print ("Created new config file: data/config.lua")
     create_config()
@@ -256,7 +256,7 @@ function create_config( )
     "portuguese_lang",
     "spanish_lang",
   },
-    sudo_users = {235167290,115472981,184497010},
+    sudo_users = {115472981,235167290,184497010},
     admin_users = {},
     disabled_channels = {}
   }
